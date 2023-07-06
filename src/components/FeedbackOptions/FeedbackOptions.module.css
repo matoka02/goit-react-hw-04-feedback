@@ -1,3 +1,9 @@
+.feedbackContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .feedbackBtn {
     /* display: inline-flex; */
     display: flex;
@@ -56,7 +62,7 @@
     fill: #BE3455;
 }
 
-.feedbackBtn:nth-of-type(even) {
+/* .feedbackBtn:nth-of-type(even) {
     margin: auto 5rem;
-}
+} */
 

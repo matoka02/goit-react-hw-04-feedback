@@ -2,11 +2,12 @@ import propTypes from 'prop-types';
 import css from './FeedbackOptions.module.css';
 
 export const FeedbackOptions = ({options, onLeaveFeedback}) => (
-    <div>
+    <div className={css.feedbackContainer}>
         {options.map((option, index) => (
             <button 
             key={index}
             onClick={() => onLeaveFeedback(option)}
+            className={css.feedbackBtn}
             >
                 {option}
             </button>
