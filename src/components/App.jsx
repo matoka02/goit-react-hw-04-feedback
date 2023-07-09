@@ -12,7 +12,7 @@ export class App extends Component {
   };
 
   handleFeedback = evt => {
-    console.log(evt); // good -- ключ
+    // console.log(evt); // evt -- ключ
     this.setState({
       [evt]: this.state[evt] + 1,
     });
